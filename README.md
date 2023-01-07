@@ -12,6 +12,7 @@ This repo contains a config file for Karabiner which I have used to remap the ke
       * <code>code ~/.config/karabiner/karabiner.json</code>
 2. Move config-file back to this repo
       * <code>cp ~/.config/karabiner/karabiner.json karabiner.json</code> 
+3. Deactivate the standard system-shortcuts in macOS
 
 
 ## Other tools 
