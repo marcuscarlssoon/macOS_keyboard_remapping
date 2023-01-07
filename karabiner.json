@@ -624,16 +624,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_control",
-                                        "lazy": true
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "right_command"
-                                        ]
+                                        "apple_vendor_keyboard_key_code": "spotlight"
                                     }
                                 ],
                                 "type": "basic"
