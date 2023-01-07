@@ -962,6 +962,35 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "ctrl+shift+7 to ctrl+/ (for commenting in Jetbrains IDEs)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "7",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command",
+                                            "right_shift"
+                
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "keypad_slash",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
