@@ -622,7 +622,12 @@
                                         ]
                                     }
                                 },
-                                "to": [
+                                "to": 
+                                    {
+                                        "key_code": "left_control",
+                                        "lazy": true
+                                    },
+                                "to_if_alone": [
                                     {
                                         "apple_vendor_keyboard_key_code": "spotlight"
                                     }
@@ -1160,6 +1165,26 @@
                     "to": [
                         {
                             "key_code": "left_command"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "non_us_backslash"
+                    },
+                    "to": [
+                        {
+                            "key_code": "grave_accent_and_tilde"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "grave_accent_and_tilde"
+                    },
+                    "to": [
+                        {
+                            "key_code": "non_us_backslash"
                         }
                     ]
                 }
