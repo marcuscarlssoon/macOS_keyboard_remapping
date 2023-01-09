@@ -1,12 +1,13 @@
 ## Background 
-I thought switching to a Mac from Linux would be a breeze, but oh boy was I wrong! The keyboard mapping has been giving me a run for my money. The fact that I'm using the Nordic layout doesn't make things any better either, as I've found that the Nordic layout on a Mac is almost unbearable for programming (three keys have to be pressed to make a curly bracket). But hey, at least I have a shiny new computer to show for it.
+I thought switching to a Mac from Ubuntu would be a breeze, but oh boy was I wrong! The keyboard mapping has been giving me a run for my money. The fact that I'm using the Nordic layout doesn't make things any better either, as I've found that the Nordic layout on a Mac is almost unbearable for programming (three keys have to be pressed to make a curly bracket). But hey, at least I have a shiny new computer to show for it.
 
-This repo contains a config file for Karabiner which I have used to remap the keyboard to a Windows/Linux Keyboard layout, without the need for switching command and ctrl in the macOS preferences.
+This repo contains a config file for Karabiner which I have used to remap the keyboard to a Windows-like layout with Ubuntu-like shortcuts, without the need for switching command and ctrl in the macOS preferences.
 
 ## Set up shortcuts for Karabiner
 1. Install Karabiner:   https://github.com/pqrs-org/Karabiner-Elements
-2.  Move the config-file to the Karabiner directory: <code>cp karabiner.json ~/.config/karabiner/karabiner.json </code>
-3. Disable **ALL** macOS shortcuts under keyboard -> shortcuts in the settings.
+2. Clone this repo, it contains a cofig-file for Karabiner, aswell ass a Applescript to open the terminal at the current location in finder.
+3. Move the config-file to the Karabiner directory: <code>cp karabiner.json ~/.config/karabiner/karabiner.json </code>
+4. Disable **ALL** macOS shortcuts under keyboard -> shortcuts in the settings.
 
 ## Edit shortcuts 
 1.  Open shortcuts in VScode:
