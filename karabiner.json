@@ -658,7 +658,29 @@
                         ]
                     },
                     {
-                        "description": "Win+Shift+t => Open in terminal",
+                        "description": "Toggle Copyq (clipboard history)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "copyq toggle"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Win+Shift+t => Open finder location in terminal",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -688,32 +710,20 @@
                         ]
                     },
                     {
-                        "description": "Ctrl+L => Cmd+shift+g (Open path) (Only in Finder)",
+                        "description": "Open Screenshot.app",
                         "manipulators": [
                             {
-                                "conditions": [
+                                "from": {
+                                    "key_code": "right_command"
+                                },
+                                "to_if_alone": [
                                     {
-                                        "bundle_identifiers": [
-                                            "^com.apple.finder"
-                                        ],
-                                        "type": "frontmost_application_if"
+                                        "shell_command": "open -a screenshot.app"
                                     }
                                 ],
-                                "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
+                                "to_if_held_down": [
                                     {
-                                        "key_code": "g",
-                                        "modifiers": [
-                                            "left_command",
-                                            "left_shift"
-                                        ]
+                                        "key_code": "right_command"
                                     }
                                 ],
                                 "type": "basic"

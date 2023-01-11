@@ -16,4 +16,5 @@
 | Go to /Desktop |	ctrl + shift + d
 | Duplicate file	|	ctrl + d 
 | Open location in terminal |  win + shift + t
+| Rename | enter 
 
