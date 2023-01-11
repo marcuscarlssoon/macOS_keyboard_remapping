@@ -5,7 +5,7 @@
 | delete | ctrl + backspace
 | open activity monitor | ctrl + shift + esc
 | open new terminal | ctrl + alt + t 
-
+| clipboard history | alt + v
 
 
 ## Finder

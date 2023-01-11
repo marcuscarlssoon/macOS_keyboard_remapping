@@ -26,3 +26,4 @@ Documentation for Karabiner json: https://karabiner-elements.pqrs.org/docs/json/
 ## Other tools I use to make macOS feel more like Linux
 * AltTab: https://alt-tab-macos.netlify.app/
 * Rectangle: https://rectangleapp.com/
+* CopyQ: https://github.com/hluk/CopyQ
